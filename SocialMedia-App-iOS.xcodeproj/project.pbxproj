@@ -60,17 +60,65 @@
 		B37FC5CB28E8CF70008D7B69 /* SocialMedia-App-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B37FC5CC28E8CF70008D7B69 /* AppDelegate.swift */,
+				B3B5D6DB28EA2FCA00E8DD72 /* App */,
+				B3B5D6DD28EA2FFA00E8DD72 /* ContainerViewControllers */,
+				B3B5D6D628EA2F7B00E8DD72 /* Screens */,
 				B37FC5D528E8CF73008D7B69 /* Assets.xcassets */,
-				B37FC5E228E8D6FE008D7B69 /* FeedViewController.swift */,
 				B37FC5DA28E8CF73008D7B69 /* Info.plist */,
 				B37FC5D728E8CF73008D7B69 /* LaunchScreen.storyboard */,
-				B37FC5E628E8D7F0008D7B69 /* ProfileViewController.swift */,
-				B37FC5D028E8CF70008D7B69 /* RootViewController.swift */,
-				B37FC5E428E8D7CC008D7B69 /* SettingsViewController.swift */,
-				B37FC5E028E8D618008D7B69 /* TabBarController.swift */,
 			);
 			path = "SocialMedia-App-iOS";
+			sourceTree = "<group>";
+		};
+		B3B5D6D628EA2F7B00E8DD72 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B3B5D6D928EA2F9000E8DD72 /* Feed */,
+				B3B5D6D828EA2F8800E8DD72 /* Profile */,
+				B3B5D6D728EA2F8300E8DD72 /* Settings */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B3B5D6D728EA2F8300E8DD72 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B37FC5E428E8D7CC008D7B69 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B3B5D6D828EA2F8800E8DD72 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B37FC5E628E8D7F0008D7B69 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B3B5D6D928EA2F9000E8DD72 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				B37FC5E228E8D6FE008D7B69 /* FeedViewController.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		B3B5D6DB28EA2FCA00E8DD72 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B37FC5CC28E8CF70008D7B69 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B3B5D6DD28EA2FFA00E8DD72 /* ContainerViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B37FC5D028E8CF70008D7B69 /* RootViewController.swift */,
+				B37FC5E028E8D618008D7B69 /* TabBarController.swift */,
+			);
+			path = ContainerViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
